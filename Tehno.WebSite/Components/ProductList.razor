@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Tehno.WebSite.Models
+@using Tehno.WebSite.Services;
+@inject JsonFileTorroService TorroService
+
+<div class="card-columns">
+    @foreach (var torro in TorroService.GetTorro())
+    {
+        <div class="card">
+            <img src="@torro.img" width="100" height="100">
+            <div class="card-body">
+                <h6>
+                    @torro.naziv
+                </h6>
+                <span>@torro.materijal</span>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-mutted">
+                    <button @onclick="(e => SelectTorro(torro.id))"
+                            data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                        Karakteristike
+                    </button>
+                </small>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@if (selectedTorro != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedTorro.naziv</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@selectedTorro.img');">
+                        </div>
+                        <div class="card-body">
+                            @selectedTorro.din
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    Torro selectedTorro;
+    string selectedTorroId;
+
+    void SelectTorro(string torroId)
+    {
+        selectedTorroId = torroId;
+        selectedTorro = TorroService.GetTorro().First(x => x.id == torroId);
+    }
+}
