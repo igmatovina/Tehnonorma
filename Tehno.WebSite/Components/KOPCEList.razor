@@ -1,0 +1,73 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Tehno.WebSite.Models
+@using Tehno.WebSite.Services;
+@inject JsonFileTorroService TorroService
+    <strong>
+        <font style="font-size:16px;">NORMA</font>
+        <font style="font-size:16px; color:#00b2b0;">CONNECT® ARS</font>
+    </strong>
+<div class="card-columns">
+    @foreach (var torro in TorroService.GetKOPCE())
+    {
+        <div class="card">
+            <img src="@torro.img" width="100px" height="100px">
+            <div class="card-body">
+                <h5>
+                    <b>@torro.naziv</b>
+                </h5>
+                <h5>@torro.materijal</h5>
+                <h5>
+                    @torro.opis
+                </h5>
+                <h5>@torro.din</h5>
+
+            </div>
+
+            <div class="card-footer">
+                <small class="text-mutted">
+                    <button @onclick="(e => SelectTorro(torro.id))"
+                            data-toggle="modal" data-target="#productModal" class="button">
+                        Dimenzije
+                    </button>
+                </small>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@if (selectedTorro != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedTorro.naziv</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-dimension">
+                        <div class="card-body-dimension">
+                            <img class="new" src="@selectedTorro.velicinaimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    Torro selectedTorro;
+    string selectedTorroId;
+
+    void SelectTorro(string torroId)
+    {
+        selectedTorroId = torroId;
+        selectedTorro = TorroService.GetKOPCE().First(x => x.id == torroId);
+    }
+}

@@ -1,0 +1,23 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Obujmica i izvedba s oprugom",
+    "izvedba": "širina trake 13,5mm",
+    "img": "images/filteropruga.png",
+    "materijal": "pocinčano ili inox A2",
+    "din": "",
+    "opis": "",
+    "velicinaimg": ""
+  },
+  {
+    "id": "2",
+    "naziv": " Obujmica s kopčom i vijkom s trokutastim ringo",
+    "izvedba": "širina trake 16mm,19mm",
+    "img": "images/troring.png",
+    "materijal": "materijal: traka inoxA2 + kopča Zn ili traka inox A2 + kopča inox A4",
+    "din": "",
+    "opis": "",
+    "velicinaimg": ""
+  }
+
+]

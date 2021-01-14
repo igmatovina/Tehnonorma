@@ -3,48 +3,384 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebApplication2</title>
+    <title>@ViewData["Title"] - WebApplication4</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/w3.css" />
+    <link rel="stylesheet" href="~/css/button.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+    <!-- menu styles -->
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-tehnonorma border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">WebApplication2</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Prvi artikal torro</a>
-                        </li>
-                    </ul>
+
+                <div class="col-9 col-9-header">
+                    <a asp-page="/Index"><img class="undefined" src="images/logo.png"/></a>
+                </div>
+                <div class="col-3 col-3-nav">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <div>
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="btn btn-1 btn-1a" asp-area="" asp-page="/Nama">O nama</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-1 btn-1a" asp-area="" asp-page="/Contact">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        <div class="row layout-row">
+            <div class="col-3">
+                <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" id="mySidebar">
+                    <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+                    <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+                        Obujmice crijeva <b><i>CLAMP®</i></b> <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="demoAcc" class="w3-hide w3-white w3-card">
+                        <a asp-area="" asp-page="/Privacy" class="w3-bar-item w3-button">Torro Clamp obujmice</a>
+                        <a asp-area="" asp-page="/HD" class="w3-bar-item w3-button">HD</a>
+                        <a asp-area="" asp-page="/S" class="w3-bar-item w3-button">S</a>
+                        <a asp-area="" asp-page="/GBS" class="w3-bar-item w3-button">GBS</a>
+                        <a asp-area="" asp-page="/COBRA" class="w3-bar-item w3-button">COBRA</a>
+                        <a asp-area="" asp-page="/FBS" class="w3-bar-item w3-button">FBS</a>
+                        <a asp-area="" asp-page="/SVS" class="w3-bar-item w3-button">SVS</a>
+                        <a asp-area="" asp-page="/FILTER" class="w3-bar-item w3-button">Obujmice za filter vreće</a>
+                        <a asp-area="" asp-page="/ZICANA" class="w3-bar-item w3-button">Obujmica žičana</a>
+                        <a asp-area="" asp-page="/FLEX" class="w3-bar-item w3-button">Fleksibilna obujmica VeryFlex</a>
+                        <a asp-area="" asp-page="/JEDNOUSNA" class="w3-bar-item w3-button">Obujmica jednoušna</a>
+                        <a asp-area="" asp-page="/DVOUSNA" class="w3-bar-item w3-button">Obujmica dvoušna</a>
+                        <a asp-area="" asp-page="/PRSTEN" class="w3-bar-item w3-button">Obujmica jednoušna s prstenom</a>
+                    </div>
+
+                    <button class="w3-button w3-block w3-left-align" onclick="myDropFunc()">
+                        Obujmice cijevi <b><i>CONNECT®</i></b><i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="demoDrop" class="w3-hide w3-white w3-card">
+                        <a asp-area="" asp-page="/ARS" class="w3-bar-item w3-button">ARS</a>
+                        <a asp-area="" asp-page="/RS" class="w3-bar-item w3-button">RS/DIN</a>
+                        <a asp-area="" asp-page="/BRS" class="w3-bar-item w3-button">BRS</a>
+                        <a asp-area="" asp-page="/FGR" class="w3-bar-item w3-button">FGR</a>
+                        <a asp-area="" asp-page="/V" class="w3-bar-item w3-button">V obujmice</a>
+                        <a asp-area="" asp-page="/TRAKE" class="w3-bar-item w3-button">Inox trake i kopče(BAND-IT)</a>
+                        <a asp-area="" asp-page="/JEDNODJELNA" class="w3-bar-item w3-button">Jednodjelna obujmica</a>
+                        <a asp-area="" asp-page="/DVODJELNA" class="w3-bar-item w3-button">Dvodjelna obujmica</a>
+                        <a asp-area="" asp-page="/GUMA" class="w3-bar-item w3-button">Obujmica s gumom/bez gume</a>
+                        <a asp-area="" asp-page="/SERIJEABC" class="w3-bar-item w3-button">Obujmice i stezaljke serije A B C</a>
+                        <a asp-area="" asp-page="/KLIZNI" class="w3-bar-item w3-button">Klizni nosači cijevi</a>
+                        <a asp-area="" asp-page="/STREMEN" class="w3-bar-item w3-button">Stremen(U-vijak)</a>
+                        <a asp-area="" asp-page="/PRSTEN" class="w3-bar-item w3-button">Stremen(U-vijak,teška izvedba)</a>
+                    </div>
+
+                    <button class="w3-button w3-block w3-left-align" onclick="myFixFunc()">
+                        Kabelske spojnice <b><i>FIX®</i></b><i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="demoFix" class="w3-hide w3-white w3-card">
+                        <a asp-area="" asp-page="/RSGU" class="w3-bar-item w3-button">RSGU</a>
+                        <a asp-area="" asp-page="/HMK" class="w3-bar-item w3-button">HMK</a>
+                        <a asp-area="" asp-page="/BS" class="w3-bar-item w3-button">BS</a>
+                        <a asp-area="" asp-page="/NORMETTA" class="w3-bar-item w3-button">NORMETTA</a>
+                        <a asp-area="" asp-page="/CABLETIES" class="w3-bar-item w3-button">CABLETIES</a>
+                    </div>
+
+                    <button class="w3-button w3-block w3-left-align" onclick="myPlastFunc()">
+                        PVC spojnice <b><i>PLAST®</i></b><i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="demoPlast" class="w3-hide w3-white w3-card">
+                        <a asp-area="" asp-page="/SV" class="w3-bar-item w3-button">SV</a>
+                        <a asp-area="" asp-page="/TLACNE" class="w3-bar-item w3-button">Tlačne spojnice</a>
+                    </div>
+
+                    <button class="w3-button w3-block w3-left-align" onclick="mySarniriFunc()">
+                        Inox šarniri (PANTI) <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="demoSarniri" class="w3-hide w3-white w3-card">
+                        <a href="https://www.ino-lj.si/tecaji-1-5-mm/" class="w3-bar-item w3-button">Debljina 1,5mm inox</a>
+                        <a href="https://www.ino-lj.si/tecaji-2-mm/" class="w3-bar-item w3-button">Debljina 2mm inox</a>
+                        <a href="https://www.ino-lj.si/tecaji-2-mm-z-vijaki/" class="w3-bar-item w3-button">Debljina 2mm inox + vijak</a>
+                        <a href="https://www.ino-lj.si/nasadni-tecaji/" class="w3-bar-item w3-button">Nasadni šarniri</a>
+                        <a href="https://www.ino-lj.si/ostali-izdelki/" class="w3-bar-item w3-button">Okov za namještaj</a>
+                        <a href="https://www.ino-lj.si/ostali-izdelki/" class="w3-bar-item w3-button">Okov za lokot</a>
+                        <a href="https://www.ino-lj.si/ostali-izdelki/" class="w3-bar-item w3-button">Ventilacijska rešetka</a>
+                        <a href="https://www.ino-lj.si/ostali-izdelki/" class="w3-bar-item w3-button">Zatezna spona inox</a>
+
+                    </div>
+                    <div id="Cetke" class="w3-block w3-left-align">
+                        <a asp-area="" asp-page="/CETKE" class="w3-button w3-block w3-left-align">
+                            Industrijske četke
+                        </a>
+                    </div>
+                    
+                    <button class="w3-button w3-block w3-left-align" onclick="mySvjetiljkeFunc()">
+                        Industrijske svjetiljke-TECHMALUX <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="demoSvjetiljke" class="w3-hide w3-white w3-card">
+                        <a asp-area="" asp-page="/CIJEVNESVJETILJKE" class="w3-bar-item w3-button">Cijevne svjetiljke</a>
+                        <a asp-area="" asp-page="/POVRSINSKE" class="w3-bar-item w3-button">Površinski instalirane svjetiljke</a>
+                        <a asp-area="" asp-page="/UGRADBENE" class="w3-bar-item w3-button">Ugradbene svjetiljke</a>
+                        <a asp-area="" asp-page="/REFLEKTORI" class="w3-bar-item w3-button">Reflektori</a>
+                        <a asp-area="" asp-page="/USKE" class="w3-bar-item w3-button">Svjetiljke za uske prostore</a>
+                    </div>
+
+                </div>
+                <div class="w3-main w3-center" id="startmenu">
+                    <a class="btn btn-1 btn-1a" asp-area="" asp-page="/Nama">O nama</a>
+                    <a class="btn btn-1 btn-1a" asp-area="" asp-page="/Kontakt">Kontakt</a>
+                    <a class="btn btn-1 btn-1a" onclick="w3_open()">Proizvodi</a>
+                </div>
+
+
+
+            </div>
+            <div class="col-9" id="main-content">
+                @RenderBody()
+            </div>
+
+        </div>
+
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - WebApplication2 - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @RenderSection("Scripts", required: false)
+
+    <script>
+        function w3_open() {
+            document.getElementById("startmenu").style.display = "none";
+            document.getElementById("mySidebar").style.display = "block";
+            var y = document.getElementById("main-content");
+            y.className += " col-9-replace"
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("startmenu").style.display = "block";
+
+            var z = document.getElementById("main-content");
+            z.className -= " col-9-replace"
+            z.className += " col-9"
+        }
+
+        function myAccFunc() {
+            var x = document.getElementById("demoAcc");
+            var Drop = document.getElementById("demoDrop");
+            var Fix = document.getElementById("demoFix");
+            var Plast = document.getElementById("demoPlast");
+            var Sarniri = document.getElementById("demoSarniri");
+            var Cetke = document.getElementById("demoCetke");
+            var Svjetiljke = document.getElementById("demoSvjetiljke");
+
+
+
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+                Drop.className = x.className.replace(" w3-show", "");
+                Fix.className = x.className.replace(" w3-show", "");
+                Plast.className = x.className.replace(" w3-show", "");
+                Sarniri.className = x.className.replace(" w3-show", "");
+                Cetke.className = x.className.replace(" w3-show", "");
+                Svjetiljke.className = x.className.replace(" w3-show", "");
+
+
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
+            }
+        }
+
+        function myDropFunc() {
+            var x = document.getElementById("demoDrop");
+            var Acc = document.getElementById("demoAcc");
+            var Fix = document.getElementById("demoFix");
+            var Plast = document.getElementById("demoPlast");
+            var Sarniri = document.getElementById("demoSarniri");
+            var Cetke = document.getElementById("demoCetke");
+            var Svjetiljke = document.getElementById("demoSvjetiljke");
+
+
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+                Acc.className = x.className.replace(" w3-show", "");
+                Fix.className = x.className.replace(" w3-show", "");
+                Plast.className = x.className.replace(" w3-show", "");
+                Sarniri.className = x.className.replace(" w3-show", "");
+                Cetke.className = x.className.replace(" w3-show", "");
+                Svjetiljke.className = x.className.replace(" w3-show", "");
+
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
+            }
+        }
+
+
+        function myFixFunc() {
+            var x = document.getElementById("demoFix");
+            var Acc = document.getElementById("demoAcc");
+            var Drop = document.getElementById("demoDrop");
+            var Plast = document.getElementById("demoPlast");
+            var Sarniri = document.getElementById("demoSarniri");
+            var Cetke = document.getElementById("demoCetke");
+            var Svjetiljke = document.getElementById("demoSvjetiljke");
+
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+                Acc.className = x.className.replace(" w3-show", "");
+                Drop.className = x.className.replace(" w3-show", "");
+                Plast.className = x.className.replace(" w3-show", "");
+                Sarniri.className = x.className.replace(" w3-show", "");
+                Cetke.className = x.className.replace(" w3-show", "");
+                Svjetiljke.className = x.className.replace(" w3-show", "");
+
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
+            }
+        }
+
+
+
+        function myPlastFunc() {
+            var x = document.getElementById("demoPlast");
+            var Acc = document.getElementById("demoAcc");
+            var Drop = document.getElementById("demoDrop");
+            var Fix = document.getElementById("demoFix");
+            var Sarniri = document.getElementById("demoSarniri");
+            var Cetke = document.getElementById("demoCetke");
+            var Svjetiljke = document.getElementById("demoSvjetiljke");
+
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+                Acc.className = x.className.replace(" w3-show", "");
+                Drop.className = x.className.replace(" w3-show", "");
+                Fix.className = x.className.replace(" w3-show", "");
+                Sarniri.className = x.className.replace(" w3-show", "");
+                Cetke.className = x.className.replace(" w3-show", "");
+                Svjetiljke.className = x.className.replace(" w3-show", "");
+
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
+            }
+        }
+
+
+
+        function mySarniriFunc() {
+            var x = document.getElementById("demoSarniri");
+            var Acc = document.getElementById("demoAcc");
+            var Drop = document.getElementById("demoDrop");
+            var Fix = document.getElementById("demoFix");
+            var Plast = document.getElementById("demoPlast");
+            var Cetke = document.getElementById("demoCetke");
+            var Svjetiljke = document.getElementById("demoSvjetiljke");
+
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+                Acc.className = x.className.replace(" w3-show", "");
+                Drop.className = x.className.replace(" w3-show", "");
+                Fix.className = x.className.replace(" w3-show", "");
+                Plast.className = x.className.replace(" w3-show", "");
+                Cetke.className = x.className.replace(" w3-show", "");
+                Svjetiljke.className = x.className.replace(" w3-show", "");
+
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
+            }
+        }
+
+        function myCetkeFunc() {
+            var x = document.getElementById("cetke");
+            var Acc = document.getElementById("demoAcc");
+            var Drop = document.getElementById("demoDrop");
+            var Fix = document.getElementById("demoFix");
+            var Plast = document.getElementById("demoPlast");
+            var Sarniri = document.getElementById("demoCetke");
+            var Svjetiljke = document.getElementById("demoSvjetiljke");
+
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+                Acc.className = x.className.replace(" w3-show", "");
+                Drop.className = x.className.replace(" w3-show", "");
+                Fix.className = x.className.replace(" w3-show", "");
+                Plast.className = x.className.replace(" w3-show", "");
+                Sarniri.className = x.className.replace(" w3-show", "");
+                Svjetiljke.className = x.className.replace(" w3-show", "");
+
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
+            }
+        }
+
+
+        function mySvjetiljkeFunc() {
+            var x = document.getElementById("demoSvjetiljke");
+            var Acc = document.getElementById("demoAcc");
+            var Drop = document.getElementById("demoDrop");
+            var Fix = document.getElementById("demoFix");
+            var Plast = document.getElementById("demoPlast");
+            var Sarniri = document.getElementById("demoCetke");
+            var Cetke = document.getElementById("demoCetke");
+
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+                Acc.className = x.className.replace(" w3-show", "");
+                Drop.className = x.className.replace(" w3-show", "");
+                Fix.className = x.className.replace(" w3-show", "");
+                Plast.className = x.className.replace(" w3-show", "");
+                Sarniri.className = x.className.replace(" w3-show", "");
+                Cetke.className = x.className.replace(" w3-show", "");
+
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
+            }
+        }
+
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>

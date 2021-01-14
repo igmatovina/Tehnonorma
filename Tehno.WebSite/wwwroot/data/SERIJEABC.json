@@ -1,0 +1,36 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Obujmica cijevna Serija A",
+    "izvedba": "lagana izvedba za jednu cijev promjera fi 4mm do fi 102mm",
+    "img": "images/seriaA.png",
+    "materijal": "cinčano, inox W4(A2) ili inox W5(A4)",
+    "din": "DIN 3015",
+    "opis": "",
+    "velicinaimg": "images/velicinaSERIJAA.png"
+
+  },
+  {
+    "id": "2",
+    "naziv": "Obujmica cijevna Serija B",
+    "izvedba": "lagana izvedba za dvije cijevi promjera fi 6mm do fi 42mm",
+    "img": "images/seriaB.jpg",
+    "materijal": "cinčano, inox W4(A2) ili inox W5(A4)",
+    "din": "DIN 3015-2",
+    "opis": "",
+    "velicinaimg": "images/velicinaSERIJAB.png"
+
+  },
+  {
+    "id": "3",
+    "naziv": "Obujmica cijevna Serija C",
+    "izvedba": "teška izvedba za jednu cijev promjera fi 6mm do fi 402mm",
+    "img": "images/seriaC.png",
+    "materijal": "cinčano, inox W4(A2) ili inox W5(A4)",
+    "din": "DIN 3015-3",
+    "opis": "",
+    "velicinaimg": "images/velicinaSERIJAC.png"
+
+  }
+
+]

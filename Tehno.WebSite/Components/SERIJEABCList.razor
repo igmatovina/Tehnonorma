@@ -1,0 +1,102 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Tehno.WebSite.Models
+@using Tehno.WebSite.Services;
+@inject JsonFileTorroService TorroService
+    <strong>
+        <font style="font-size:16px;">NORMA</font>
+        <font style="font-size:16px; color:#00b2b0;">CONNECT®</font>
+    </strong>
+<div class="card-columns">
+    @foreach (var torro in TorroService.GetSERIJEABC())
+    {
+        <div class="card">
+            <img src="@torro.img" width="100px" height="100px">
+            <div class="card-body">
+                <h5>
+                    <b>@torro.naziv</b>
+                </h5>
+                <h5>@torro.din</h5>
+                <h5>@torro.materijal</h5>
+                <h5>
+                    @torro.opis
+                </h5>
+
+
+            </div>
+
+            <div class="card-footer">
+                <small class="text-mutted">
+                    <button @onclick="(e => SelectTorro(torro.id))"
+                            data-toggle="modal" data-target="#productModal" class="button">
+                        Dimenzije
+                    </button>
+                </small>
+            </div>
+        </div>
+    }
+</div>
+<div>
+    <p class="font-weight-bold">Sastavni elementi</p>
+    <h5>Materijal kućišta: polipropilen, poliamid, guma, aluminij</h5>
+    <h5>
+        pokrovna plocica<br />donja pločica za navarivanje ili nosiva šina sa maticama
+        <br />vijci DIN 84 ili Din 931/933 ili DIN 912<br />
+    </h5><br />
+
+    <p class="font-weight-bold">Za vise informacija o obujmicama i stezaljkama pogledajte katalog</p>
+    <b>
+        <a href="katalozi/Rohrschellen_Serie_A_Einzelteile_D-GB.pdf">
+            <h5> Katalog serije A</h5>
+        </a>
+        <a href="katalozi/Rohrschellen_Serie_A_Komplett-Programm_D-GB.pdf">
+            <h5>Katalog serije A kompletan program</h5>
+        </a>
+        <a href="katalozi/Rohrschellen_Serie_B_Einzelteile_D-GB.pdf">
+            <h5> Katalog serije B</h5>
+        </a>
+        <a href="katalozi/Rohrschellen_Serie_B_Komplett-Programm_D-GB.pdf">
+            <h5>Katalog serije B kompletan program</h5>
+        </a>
+        <a href="katalozi/Rohrschellen_Serie_C_Einzelteile_D-GB.pdf">
+            <h5>Katalog serije C</h5>
+        </a>
+        <a href="katalozi/Rohrschellen_Serie_C_Komplett-Programm_D-GB.pdf">
+            <h5>Katalog serije C kompletan program</h5>
+        </a>
+    </b>
+</div>
+
+@if (selectedTorro != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedTorro.naziv</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-dimension">
+                        <div class="card-body-dimension">
+                            <img class="new" src="@selectedTorro.velicinaimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    Torro selectedTorro;
+    string selectedTorroId;
+
+    void SelectTorro(string torroId)
+    {
+        selectedTorroId = torroId;
+        selectedTorro = TorroService.GetSERIJEABC().First(x => x.id == torroId);
+    }
+}

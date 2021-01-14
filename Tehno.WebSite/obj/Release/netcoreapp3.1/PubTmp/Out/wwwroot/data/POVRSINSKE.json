@@ -1,0 +1,48 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "AuLED",
+    "svjetiljka\",": null,
+    "izvedba": "",
+    "img": "images/auled.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/AuLED_E.pdf"
+
+  },
+
+  {
+    "id": "2",
+    "naziv": "Setroline",
+    "izvedba": "",
+    "img": "images/setroline.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/SetroLine_E.pdf"
+
+  },
+  {
+    "id": "3",
+    "naziv": "MiniLED",
+    "izvedba": "",
+    "img": "images/miniled.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/MiniLED_E.pdf"
+
+  },
+  {
+    "id": "4",
+    "naziv": "CarLift",
+    "izvedba": "",
+    "img": "images/carlift.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/CarLift_E.pdf"
+
+  }
+]

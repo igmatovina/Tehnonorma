@@ -13,9 +13,13 @@ namespace Tehno.WebSite.Models
             public string naziv { get; set; }
             [JsonPropertyName("Img")]
             public string img { get; set; }
+            public string izvedba { get; set; }
+
             public string materijal { get; set; }
             public string din { get; set; }
             public string opis { get; set; }
+            public string velicinaimg { get; set; }
+
 
         public override string ToString() => JsonSerializer.Serialize<Torro>(this);
     }

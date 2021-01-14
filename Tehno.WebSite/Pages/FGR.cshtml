@@ -1,0 +1,12 @@
+﻿@page
+@using Tehno.WebSite.Components
+@model PrivacyModel
+@{
+    ViewData["Title"] = "NORMA CONNECT";
+}
+
+@(await Html.RenderComponentAsync<FGRList>(RenderMode.ServerPrerendered))
+
+
+<script src="_framework/blazor.server.js"></script>
+

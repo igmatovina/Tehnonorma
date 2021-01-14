@@ -1,0 +1,63 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Obujmica za cijev sa gumom, zglobna",
+    "izvedba": "zglobna",
+    "img": "images/slika1.png",
+    "materijal": "pocinčano",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/guma1velicina.png"
+
+  },
+  {
+    "id": "2",
+    "naziv": "Obujmica za cijev sa gumom dvodjelna",
+    "izvedba": "",
+    "img": "images/slika2.png",
+    "materijal": "pocinčano, nehrđajući čelik 1.4301(A2), nehrđajući čelik 1.4401(A4)",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/guma2velicina.png"
+
+  },
+  {
+    "id": "3",
+    "naziv": "Obujmica za cijev bez gume-dvodjelna",
+    "izvedba": ",",
+    "img": "images/slika3.png",
+    "materijal": "pocinčano",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/guma3velicina.png"
+
+
+  },
+
+  {
+    "id": "4",
+    "naziv": "Obujmica za cijev bez gume",
+    "izvedba": "dvodjelna, teška izvedba",
+    "img": "images/slika4.png",
+    "materijal": "pocinčano",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/guma4velicina.png"
+
+
+  },
+
+  {
+    "id": "5",
+    "naziv": "Obujmica za cijev bez gume",
+    "izvedba": "dvodjelna, inox",
+    "img": "images/slika5.png",
+    "materijal": " nehrđajući čelik 1.4301(A2), nehrđajući čelik 1.4401(A4)",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/guma5velicina.png"
+
+
+  }
+
+]

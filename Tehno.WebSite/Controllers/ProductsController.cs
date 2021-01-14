@@ -1,5 +1,4 @@
 ﻿using Tehno.WebSite.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -24,5 +23,6 @@ namespace Tehno.WebSite.Controllers
         {
             return TorroService.GetTorro();
         }
+
     }
 }

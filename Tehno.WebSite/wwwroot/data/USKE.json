@@ -1,0 +1,36 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "AuLED",
+    "izvedba": "",
+    "img": "images/auled.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/AuLED_E.pdf"
+
+  },
+
+  {
+    "id": "2",
+    "naziv": "LumLED S3",
+    "izvedba": "",
+    "img": "images/lumleds3.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/StabLED_E.pdf"
+
+  },
+  {
+    "id": "3",
+    "naziv": "Carlift",
+    "izvedba": "",
+    "img": "images/carlift.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/CarLift_E.pdf"
+
+  }
+]

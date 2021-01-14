@@ -1,0 +1,335 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Plosnate trakaste četke (Body material)",
+    "izvedba": "Četke sa različitim izvedbama pričvršćenja (ljepljivom trakom, natične, utične, utične u C-vodilicu)",
+    "img": "/images/Koerpermaterial_01.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Buerstenkoerper_D_GB_F.pdf"
+
+  },
+  {
+    "id": "2",
+    "naziv": "Fleksibilne četke (Mink bubble-brush)",
+    "izvedba": "Kombinacija savršenog brtvljenja i savitljivosti",
+    "img": "/images/Bubble-Brush_01.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Bubble_Brush_D_GB_F.pdf"
+  },
+
+  {
+    "id": "3",
+    "naziv": "Disk četke za brtvljenje i nošenje (Sealing/Carrying)",
+    "izvedba": "",
+    "img": "/images/TD_01.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/TD_System_D_GB_F.pdf"
+
+  },
+  {
+    "id": "4",
+    "naziv": "U sistem četki za držanje bez oštećenja (Damage-free holding U system)",
+    "izvedba": "",
+    "img": "/images/damage-free.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/U_System_D_GB_PL.pdf"
+
+  },
+
+  {
+    "id": "5",
+    "naziv": "Pokretne četke (Transverse cleaning/Conveyance (KBL)",
+    "izvedba": "",
+    "img": "/images/kbl.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Kett_System_D_GB_F.pdf"
+
+  },
+  {
+    "id": "6",
+    "naziv": "Četke za brtvljenje staklenih površina (Sealing)",
+    "izvedba": "",
+    "img": "/images/staklene-povrsine.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Glaskantenprofil_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "7",
+    "naziv": "Četke za čišćenje solarnih panela (Solar Energy Industry)",
+    "izvedba": "",
+    "img": "/images/solar.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Solar_de_en_fr_neu_01.pdf"
+
+  },
+  {
+    "id": "8",
+    "naziv": "Okrugle četke (Cleaning/Conveying RSB)",
+    "izvedba": "",
+    "img": "/images/RSB.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/RSB_System_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "9",
+    "naziv": "Sistem prizma četki (Storage/Conveying (MPS)",
+    "izvedba": "",
+    "img": "/images/mps.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Prisma_D_GB_F.pdf"
+
+  },
+  {
+    "id": "10",
+    "naziv": "Četke za prijenos osjetljivih predmeta (Conveying (MBS))",
+    "izvedba": "",
+    "img": "/images/mbs.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/MBS_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "11",
+    "naziv": "Četke za zaštitu i prijenos osjetljivih predmeta (Securing/Conveying (MGS))",
+    "izvedba": "",
+    "img": "/images/mgs.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Guard_System_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "12",
+    "naziv": "Četke za brtvljenje osovina (Sealing/Wiping(AD))",
+    "izvedba": "",
+    "img": "/images/osovina.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/AD_System_D_GB_F.pdf"
+
+  },
+  {
+    "id": "13",
+    "naziv": "Valjci širokog raspona (Perforation brushes)",
+    "izvedba": "",
+    "img": "/images/osovina.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/APW_D_GB_F.pdf"
+
+  },
+  {
+    "id": "14",
+    "naziv": "Sistem četki kao radnih površina (Drop/Edit (MCS)",
+    "izvedba": "",
+    "img": "/images/MCS_01.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Care_System_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "15",
+    "naziv": "Brtvene četke za kablove u klimatiziranim prostorima (Sealing (STLBS))",
+    "izvedba": "",
+    "img": "/images/stlbs.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Buerstenschott_D_GB_F.pdf"
+
+  },
+  {
+    "id": "16",
+    "naziv": "Četke za čišćenje (Cleaning (TBS))",
+    "izvedba": "",
+    "img": "/images/tbs.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/TBS_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "18",
+    "naziv": "Sistem valjkastih četki za pranje i čišćenje (Conveying/Washing (ZZB))",
+    "izvedba": "",
+    "img": "/images/zzb.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/ZZB_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "19",
+    "naziv": "Sistem rotirajućih valjkastih četki za prijenos predmeta (Conveying (TBR))",
+    "izvedba": "",
+    "img": "/images/trb.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/TBR_D_GB_F.pdf"
+
+  },
+  {
+    "id": "20",
+    "naziv": "Trakaste četke za brtvljenje, pričvršćivanje u aluminijske profile (Sealing/Guiding)",
+    "izvedba": "",
+    "img": "/images/alum.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/STL_2108_2110_D_GB_FR.pdf"
+
+  },
+
+  {
+    "id": "21",
+    "naziv": "Standardne trakaste četke (Sealing/Guiding (STL)",
+    "izvedba": "",
+    "img": "/images/stl.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/STL_D_GB_F_05.pdf"
+
+  },
+  {
+    "id": "22",
+    "naziv": "Okrugle četke za čišćenje, pranje, prenošenje (Conveying/Cleaning (RUB))",
+    "izvedba": "",
+    "img": "/images/rub.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/RUB_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "23",
+    "naziv": "Četke pokretane remenom (Guiding/Conveying)",
+    "izvedba": "",
+    "img": "/images/cetke-remen.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Riemen_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "24",
+    "naziv": "Četke kao radne površine (Supporting/Carrying)",
+    "izvedba": "",
+    "img": "/images/radnapovrsina.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Plattenbuersten_D_GB_F.pdf"
+
+  },
+  {
+    "id": "25",
+    "naziv": "Okrugle valjkaste četke (Cleaning/Washing (HP))",
+    "izvedba": "",
+    "img": "/images/hp.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/HP_System_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "26",
+    "naziv": "Flex sustav za brtvljenje ravnih, okruglih i zaobljenih otvora (Sealing/Guiding (FBL))",
+    "izvedba": "",
+    "img": "/images/fbl.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/FBL_D_GB_F.pdf"
+
+  },
+  {
+    "id": "27",
+    "naziv": "Antistatičke četke (Removing static (ABL))",
+    "izvedba": "",
+    "img": "/images/abl.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/ABL_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "28",
+    "naziv": "Valjci širokog raspona za osjetljivo izglađivanje nabora (Spreading (BSW))",
+    "izvedba": "",
+    "img": "/images/bsw.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/BSW_D_GB_F.pdf"
+
+  },
+  {
+    "id": "29",
+    "naziv": "Četke kao ukrasni dizajn za izložbe, salone, recepcije, muzeje (Design)",
+    "izvedba": "",
+    "img": "/images/design.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Design_D_GB_F.pdf"
+
+  },
+
+  {
+    "id": "30",
+    "naziv": "Pregled materijala, boja i karakteristika za izradu četki (Bristle material)",
+    "izvedba": "",
+    "img": "/images/bristle.gif",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.mink-buersten.com/uploads/tx_userminkinfomaterial/Fasermaterial_D_GB_F.pdf"
+
+  }
+]

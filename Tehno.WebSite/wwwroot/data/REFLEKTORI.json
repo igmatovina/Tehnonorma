@@ -1,0 +1,47 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "BetaLED",
+    "izvedba": "",
+    "img": "images/beta.png",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/BetaLED_E.pdf"
+
+  },
+
+  {
+    "id": "2",
+    "naziv": "LedSpot",
+    "izvedba": "",
+    "img": "images/ledspot.png",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/LedSpot_E.pdf"
+
+  },
+  {
+    "id": "3",
+    "naziv": "MiniLED",
+    "izvedba": "",
+    "img": "images/monoled.png",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/MonoLED_E.pdf"
+
+  },
+  {
+    "id": "4",
+    "naziv": "PolyLed",
+    "izvedba": "",
+    "img": "images/polyled.png",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/PolyLED_E.pdf"
+
+  }
+]

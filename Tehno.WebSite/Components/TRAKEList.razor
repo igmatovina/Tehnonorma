@@ -1,0 +1,158 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Tehno.WebSite.Models
+@using Tehno.WebSite.Services;
+@inject JsonFileTorroService TorroService
+<strong>
+    <font style="font-size:16px;">NORMA</font>
+    <font style="font-size:16px; color:#00b2b0;">CONNECT®</font>
+</strong>
+<br />
+<a href="https://www.bandimex.de/wp-content/uploads/2018/12/Bandimex_Catalog_english_2016.pdf">
+    <h5 style="font-size:20px">
+        <b>
+            Katalog BANDIMEX®
+        </b>
+    </h5>
+</a>
+<br />
+<div class="naziv">
+    <strong>
+        <font style="font-size:15px;">Trake i vezice</font>
+    </strong>
+</div>
+<div class="card-columns">
+    @foreach (var torro in TorroService.GetTRAKE())
+    {
+        @if (Convert.ToInt32(torro.id) <= 8)
+        {
+            <div class="card">
+                <img src="@torro.img">
+                <div class="card-body">
+                    <h5>
+                        <b>@torro.naziv</b>
+                    </h5>
+                  
+                    <h5>@torro.din</h5>
+                    <h5>
+                        @torro.opis
+                    </h5>
+                    <h5>@torro.materijal</h5>
+
+
+                </div>
+
+                <div class="card-footer">
+                    <small class="text-mutted">
+                        <button @onclick="(e => SelectTorro(torro.id))"
+                                data-toggle="modal" data-target="#productModal" class="button">
+                            Dimenzije
+                        </button>
+                    </small>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+<div class="naziv">
+    <strong>
+        <font style="font-size:15px;">Kopče</font>
+    </strong>
+</div>
+<div class="card-columns">
+    @foreach (var torro in TorroService.GetTRAKE())
+    {
+
+        @if (Convert.ToInt32(torro.id) >= 10 && Convert.ToInt32(torro.id) <= 17)
+        {
+            <div class="card">
+                <img src="@torro.img" class="img-special">
+                <div class="card-body">
+                    <h5>
+                        <b>@torro.naziv</b>
+                    </h5>
+                    <h5>@torro.izvedba</h5>
+                    <h5>@torro.materijal</h5>
+                    <h5>
+                        @torro.opis
+                    </h5>
+                    <h5>@torro.din</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-mutted">
+                        <button @onclick="(e => SelectTorro(torro.id))"
+                                data-toggle="modal" data-target="#productModal" class="button">
+                            Dimenzije
+                        </button>
+                    </small>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+<div>
+    <strong>
+        <font style="font-size:15px;">Alat</font>
+    </strong>
+</div>
+<div class="card-columns">
+    @foreach (var torro in TorroService.GetTRAKE())
+    {
+
+        @if (Convert.ToInt32(torro.id) >= 18)
+        {
+            <div class="card">
+                <img src="@torro.img" class="img-special">
+                <div class="card-body">
+                    <h5>
+                        @torro.naziv
+                    </h5>
+                    <h5>@torro.izvedba</h5>
+                    <h5>@torro.materijal</h5>
+                    <h5>
+                        @torro.opis
+                    </h5>
+                    <h5>@torro.din</h5>
+                </div>
+
+            </div>
+        }
+    }
+</div>
+
+
+
+@if (selectedTorro != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedTorro.naziv</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-dimension">
+                        <div class="card-body-dimension">
+                            <img class="new" src="@selectedTorro.velicinaimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    Torro selectedTorro;
+    string selectedTorroId;
+
+    void SelectTorro(string torroId)
+    {
+        selectedTorroId = torroId;
+        selectedTorro = TorroService.GetTRAKE().First(x => x.id == torroId);
+    }
+}

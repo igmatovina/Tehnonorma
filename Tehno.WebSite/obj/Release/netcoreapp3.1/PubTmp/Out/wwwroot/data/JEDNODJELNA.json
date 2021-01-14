@@ -1,0 +1,23 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Jednodjelna obujmica DIN 1592",
+    "izvedba": "za cijevi fi 5,5 - 61.0mm",
+    "img": "images/jednodjelnaObujmica.png",
+    "materijal": "crno cinčano,inoxA2,inoxA4",
+    "din": "",
+    "opis": "debljine lima 2,3,5 i 8 mm",
+    "velicinaimg": "images/velicineJednodjelna.png"
+  },
+  {
+    "id": "2",
+    "naziv": "Jednodjelna obujmica DIN 1593",
+    "izvedba": "za cijevi 5,5 - 813mm",
+    "img": "images/jednodjelnaObujmica2.png",
+    "materijal": "crno,cinčano,inoxA2,inoxA4",
+    "din": "",
+    "opis": "debljina lima: 2,3,5,8,10 i 12 mm",
+    "velicinaimg": "images/velicinajednodjelna2.png"
+  }
+
+]

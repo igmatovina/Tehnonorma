@@ -1,0 +1,60 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Obujmica crijeva COBRA",
+    "izvedba": "Bez vijka, izrađena od jednog dijela",
+    "img": "images/normaclamp_cobra.png",
+    "materijal": "Inox čelik 1.4301",
+    "din": "DIN 3017",
+    "opis": "Bez vijka, Za brzo spajanje i rastavljanje",
+    "velicinaimg": "images/velicinaCOBRA.png"
+
+  },
+  {
+    "id": "2",
+    "naziv": "Obujmica crijeva COBRA-500kom",
+    "izvedba": "Bez vijka, izrađena od jednog dijela",
+    "img": "images/torroset3.jpg",
+    "materijal": "Inox čelik 1.4301",
+    "din": "DIN 3017",
+    "opis": "Za brzo spajanje i rastavljanje",
+    "velicinaimg": "images/cobraset.png"
+
+  },
+
+  {
+    "id": "10",
+    "naziv": "Kliješta pneumatska COBRA",
+    "izvedba": "",
+    "img": "images/klijesta_rucna.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": ""
+  },
+  {
+    "id": "11",
+    "naziv": "Kliješta pneumatska COBRA -ravna",
+    "izvedba": "",
+    "img": "images/pneumatska.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": ""
+
+  },
+  {
+    "id": "12",
+    "naziv": "Kliješta pneumatska COBRA - 90°",
+    "izvedba": "",
+    "img": "images/pneumatska-90.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": ""
+
+  }
+
+
+]
+

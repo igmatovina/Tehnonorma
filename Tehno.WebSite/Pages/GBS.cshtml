@@ -1,0 +1,15 @@
+﻿@page
+@using Tehno.WebSite.Components
+@model PrivacyModel
+@{
+    ViewData["Title"] = "NORMA CLAMP TORO";
+}
+<strong>
+    <font style="font-size:16px;">NORMA</font>
+    <font style="font-size:16px; color:#00b2b0;">CLAMP® GBS STC</font>
+</strong>
+@(await Html.RenderComponentAsync<GBSList>(RenderMode.ServerPrerendered))
+
+
+<script src="_framework/blazor.server.js"></script>
+

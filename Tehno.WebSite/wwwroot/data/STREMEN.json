@@ -1,0 +1,27 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Stremen (U-vijak)",
+    "izvedba": "standardna izvedba za cijevi DN15 do DN300",
+    "img": "images/stremen-u.png",
+    "materijal": "cinčano, inox",
+    "din": "- DIN 3570 oblik A",
+    "opis": "brodska norma: SB 4884",
+    "velicinaimg": "images/stremen-u-velicine.png"
+
+  },
+
+  {
+    "id": "2",
+    "naziv": "Stremen (U-vijak, teška izvedba)",
+    "izvedba": "standardna izvedba za cijevi DN15 do DN500",
+    "img": "images/stremen-u-teska.png",
+    "materijal": "cinčano, inox",
+    "din": "DIN 3570 oblik A",
+    "opis": "brodska norma: SB 4884",
+    "velicinaimg": "images/stremen-u-velicine-teske.png"
+
+  }
+
+
+]

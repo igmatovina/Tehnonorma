@@ -1,0 +1,40 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Klizni nosač TYP1",
+    "izvedba": "  S jednom obujmicom DIN 3567A",
+    "img": "images/typ1.png",
+    "materijal": "MATERIJAL: S235JR, crno, pocinčano, vruće pocinčano",
+    "din": "za cijev DN15 do DN80",
+    "opis": "T profil 60, T profil 80",
+    "velicinaimg": "images/VELICINATYP1.png"
+
+  },
+
+  {
+    "id": "2",
+    "naziv": "Klizni nosač TYP2",
+    "izvedba": "S dvije obujmice DIN 3567A",
+    "img": "images/typ2.png",
+    "materijal": "MATERIJAL: S235JR, crno, pocinčano, vruće pocinčano",
+    "din": "za cijev DN15 do DN200",
+    "opis": "T profil 60, T profil 80",
+    "velicinaimg": "images/VELICINATYP2.png"
+
+  },
+
+
+  {
+    "id": "3",
+    "naziv": "Klizni nosač TYP150",
+    "izvedba": "  S dvije obujmice DIN 3567A",
+    "img": "images/typ1.png",
+    "materijal": "MATERIJAL: S235JR, crno, pocinčano, vruće pocinčano",
+    "din": "za cijev DN100 do DN900",
+    "opis": "",
+    "velicinaimg": "images/VELICINATYP150.png"
+
+  }
+
+
+]

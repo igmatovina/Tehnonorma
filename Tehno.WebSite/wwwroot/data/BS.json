@@ -1,0 +1,48 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "",
+    "izvedba": "",
+    "img": "images/slika3.jpg",
+    "materijal": "",
+    "din": "DIN 1596",
+    "opis": "",
+    "velicinaimg": ""
+
+  },
+  {
+    "id": "2",
+    "naziv": "",
+    "izvedba": "",
+    "img": "images/slika1.jpg",
+    "materijal": "",
+    "din": "DIN 72571",
+    "opis": "",
+    "velicinaimg": ""
+
+  },
+  {
+    "id": "3",
+    "naziv": "",
+    "izvedba": "",
+    "img": "images/slika2.jpg",
+    "materijal": "",
+    "din": "DIN 72573",
+    "opis": "",
+    "velicinaimg": ""
+
+  },
+  {
+    "id": "4",
+    "naziv": "",
+    "izvedba": "",
+    "img": "images/slika4.jpg",
+    "materijal": "",
+    "din": "DIN 1597",
+    "opis": "",
+    "velicinaimg": ""
+
+  }
+
+
+]

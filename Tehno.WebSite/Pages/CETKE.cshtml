@@ -1,0 +1,11 @@
+﻿@page
+@using Tehno.WebSite.Components
+
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@(await Html.RenderComponentAsync<CETKEList>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>

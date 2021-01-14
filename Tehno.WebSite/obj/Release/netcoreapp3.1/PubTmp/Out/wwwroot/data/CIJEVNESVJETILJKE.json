@@ -1,0 +1,69 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "RoLED",
+    "izvedba": "",
+    "img": "images/cijevna.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/RoLED_E.pdf"
+
+  },
+
+  {
+    "id": "2",
+    "naziv": "Setroline",
+    "izvedba": "",
+    "img": "images/setroline.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/SetroLine_E.pdf"
+
+  },
+  {
+    "id": "3",
+    "naziv": "Stabled",
+    "izvedba": "",
+    "img": "images/stabled.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/RoLED_E.pdf"
+
+  },
+  {
+    "id": "4",
+    "naziv": "LumoLED SE",
+    "izvedba": "",
+    "img": "images/lumoledse.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/LumoLED_SE_E.pdf"
+
+  },
+  {
+    "id": "5",
+    "naziv": "LumoLED S3",
+    "izvedba": "",
+    "img": "images/lumleds3.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/LumoLED_S3_E.pdf"
+
+  },
+  {
+    "id": "6",
+    "naziv": "LumoLED K2/K3",
+    "izvedba": "",
+    "img": "images/lumledk2k3.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "https://www.fkb-gmbh.com/fileadmin/user_upload/Lichttechnik/Produkte/Katalog/EN/LumoLED_K2_K3_E.pdf"
+
+  }
+]

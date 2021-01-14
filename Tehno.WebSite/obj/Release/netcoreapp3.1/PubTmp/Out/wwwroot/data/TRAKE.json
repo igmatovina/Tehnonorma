@@ -1,0 +1,144 @@
+﻿[
+  {
+    "id": "18",
+    "naziv": "Kliješta za INOX kabelske vezice",
+    "izvedba": "",
+    "img": "images/klijestavezice.png",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": ""
+
+  },
+
+  {
+    "id": "1",
+    "naziv": "Inox traka 30M/ROLA-A2",
+    "izvedba": "",
+    "img": "images/inoxtraka30.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/velicinaA2rola.png"
+
+  },
+  {
+    "id": "2",
+    "naziv": "Inox kabelske vezice",
+    "izvedba": "Širine 4,5mm(pakiranje 100kom) ili 8mm(50kom)",
+    "img": "images/kabelskavezica.png",
+    "materijal": "inox AISI 316(A4)",
+    "din": "Širina 4,5mm(pakiranje 100kom) ili Širina 8mm (pakiranje 50kom)",
+    "opis": "debljina 0,3mm",
+    "velicinaimg": "images/velicineKABELSKA.png"
+
+  },
+
+  {
+    "id": "3",
+    "naziv": "Inox traka 30m / rola-A4",
+    "izvedba": "",
+    "img": "images/inoxtraka30.jpg",
+    "materijal": "nehrđajući čelik 1.4401-Aisi 316(A4)",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/velicinaINOXtrak30.png"
+
+  },
+
+  {
+    "id": "4",
+    "naziv": "Inox traka 30m rola, teška izvedba-A2",
+    "izvedba": "",
+    "img": "images/inoxtraka30.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/velicinaINOXtrakTESKA.png"
+
+  },
+
+  {
+    "id": "5",
+    "naziv": "Traka/rola 30m,50m i 90m lagana izvedba",
+    "izvedba": "",
+    "img": "images/inoxtraka30.jpg",
+    "materijal": "nehrđajući čelik 1.4301-Aisi 304(A2)",
+    "din": "debljina 0,40mm-A2",
+    "opis": "Traka/rola 30m,50m i 90m",
+    "velicinaimg": "images/velicinaTRAKAlagana.png"
+
+  },
+
+  {
+    "id": "19",
+    "naziv": "Alat za stezanje INOX kopči",
+    "izvedba": "",
+    "img": "images/alatzastezanje.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": ""
+
+  },
+
+  {
+    "id": "10",
+    "naziv": "Kopče s vijkom ",
+    "izvedba": "Bez upotrebe alata za stezanje",
+    "img": "images/kopceinox2.jpg",
+    "materijal": "inox A2 za inox traku",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/velicinaKOPCAbezstezanja.png"
+
+  },
+
+  {
+    "id": "11",
+    "naziv": "Kopče inox A4",
+    "izvedba": "za inox traku",
+    "img": "images/kopceinox.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/velicinaKOPCA.png"
+
+  },
+
+  {
+    "id": "12",
+    "naziv": "Kopče",
+    "izvedba": "teška izvedba",
+    "img": "images/kopceinox.jpg",
+    "materijal": "inox A2",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/velicinaKOPCAteska.png"
+
+  },
+
+  {
+    "id": " 13",
+    "naziv": "Kopče za traku",
+    "izvedba": "lagana izvedba",
+    "img": "images/kopcalagana.jpg",
+    "materijal": "Inox A2",
+    "din": "DIN 3017",
+    "opis": "Za brzo spajanje i rastavljanje",
+    "velicinaimg": "images/velicinaKOPCAlagana.png"
+
+  },
+
+  {
+    "id": "14",
+    "naziv": "Kopče",
+    "izvedba": "inox A2 za inox traku",
+    "img": "images/kopceinox.jpg",
+    "materijal": "",
+    "din": "",
+    "opis": "",
+    "velicinaimg": "images/velicinaINOXtrak.png"
+
+  }
+]

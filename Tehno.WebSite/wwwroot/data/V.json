@@ -1,0 +1,16 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "V obujmica",
+    "izvedba": "promjeri od 35mm do 1500mm",
+    "img": "images/normav.png",
+    "materijal": "za spajanje 2 prirubnice širine 4mm do 22mm",
+    "din": "za dubinu spojnog dijela prirubnica 3,5mm do 20mm",
+    "opis": "materijal Vobujmice: inox AISI 304(A2),inox AISI 316(A4)",
+    "velicinaimg": "https://www.normagroup.com/norma.nsf/res/NORMA-V-datasheet-en.pdf/$file/NORMA-V-datasheet-en.pdf"
+
+  }
+
+
+
+]

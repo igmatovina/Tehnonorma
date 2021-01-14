@@ -1,0 +1,38 @@
+﻿[
+  {
+    "id": "1",
+    "naziv": "Obujmica crijeva GBS (robusna)",
+    "izvedba": "Obujmica crijeva sa šesterokutnom glavom, dodatak vijak sa šesterokutnom glavom Sk",
+    "img": "images/normaclamp_gbs.jpg",
+    "materijal": "Cinčano W1",
+    "din": "DIN 3017",
+    "opis": "Za teške uvjete rada, kod visokih pritisaka i vibracija",
+    "velicinaimg": "images/velicinaGBS1.png"
+
+  },
+
+  {
+    "id": "2",
+    "naziv": "Obujmica crijeva GBS (robusna)",
+    "izvedba": "Obujmica crijeva sa šesterokutnom glavom, dodatak vijak sa šesterokutnom glavom Sk",
+    "img": "images/normaclamp_gbs.jpg",
+    "materijal": "nox čelik 1.4301 W4",
+    "din": "DIN 3017",
+    "opis": "Za teške uvjete rada, kod visokih pritisaka i vibracija",
+    "velicinaimg": "images/velicinaGBS2.png"
+
+  },
+
+  {
+    "id": "3",
+    "naziv": "Obujmica crijeva GBS (robusna)",
+    "izvedba": "Obujmica crijeva sa šesterokutnom glavom ,dodatak vijak sa šesterokutnom glavom Sk",
+    "img": "images/normaclamp_gbs.jpg",
+    "materijal": "Inox čelik 1.4571 W5",
+    "din": "DIN 3017",
+    "opis": "Za teške uvjete rada, kod visokih pritisaka i vibracija",
+    "velicinaimg": "images/velicinaGBS3.png"
+
+  }
+
+]

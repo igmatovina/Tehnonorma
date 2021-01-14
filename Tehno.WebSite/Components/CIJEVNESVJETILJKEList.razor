@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Tehno.WebSite.Models
+@using Tehno.WebSite.Services;
+@inject JsonFileTorroService TorroService
+
+<div class="card-columns-wider">
+    @foreach (var torro in TorroService.GetCIJEVNESVJETILJKE())
+    {
+        <h5>
+            <b>@torro.naziv</b>
+        </h5>
+        <div class="card-wider">
+            <img src="@torro.img" class="img-width left-margin">
+  
+            <div class="card-footer lampe">
+                <small class="text-mutted">
+                    <a href="@torro.velicinaimg">
+                        <h5><b>Katalog</b></h5>
+                    </a>
+                </small>
+            </div>
+        </div>
+
+    }
+</div>
+

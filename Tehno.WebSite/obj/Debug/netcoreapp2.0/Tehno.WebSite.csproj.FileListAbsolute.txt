@@ -1,0 +1,4 @@
+C:\Users\ja\source\repos\Tehno\Tehno.WebSite\obj\Debug\netcoreapp2.0\Tehno.WebSite.csprojAssemblyReference.cache
+C:\Users\ja\source\repos\Tehno\Tehno.WebSite\obj\Debug\netcoreapp2.0\Tehno.WebSite.AssemblyInfoInputs.cache
+C:\Users\ja\source\repos\Tehno\Tehno.WebSite\obj\Debug\netcoreapp2.0\Tehno.WebSite.AssemblyInfo.cs
+C:\Users\ja\source\repos\Tehno\Tehno.WebSite\obj\Debug\netcoreapp2.0\Tehno.WebSite.csproj.CoreCompileInputs.cache

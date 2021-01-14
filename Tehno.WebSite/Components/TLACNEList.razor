@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Tehno.WebSite.Models
+@using Tehno.WebSite.Services;
+@inject JsonFileTorroService TorroService
+    <div>
+        <strong>
+            <font style="font-size:16px;">NORMA</font>
+            <font style="font-size:16px; color:#00b2b0;">CLAMP® GBS STC</font>
+        </strong>
+    </div>
+    <div class="card-columns">
+        @foreach (var torro in TorroService.GetTLACNE())
+        {
+        <div class="card-wider">
+            <img src="@torro.img">
+            <div class="card-body">
+                <h5>
+                    <b>@torro.naziv</b>
+                </h5>
+                <h5>@torro.izvedba</h5>
+
+                <h5>@torro.materijal</h5>
+                <h5>
+                    @torro.opis
+                </h5>
+            </div>
+
+            <div class="card-footer">
+                <a href="katalozi/KATALOGtlacne.pdf">
+                    <h5>
+                        <b>
+                            Katalog NORMAPLAST® COMPRESSION FITTINGS
+                        </b>
+                    </h5>
+                </a>
+            </div>
+        </div>
+        }
+    </div>
